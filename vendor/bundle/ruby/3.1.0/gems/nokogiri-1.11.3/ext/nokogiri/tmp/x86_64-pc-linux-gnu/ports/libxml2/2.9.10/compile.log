@@ -1,0 +1,25 @@
+make  all-recursive
+make[1]: Entering directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10'
+Making all in include
+make[2]: Entering directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10/include'
+Making all in libxml
+make[3]: Entering directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10/include/libxml'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10/include/libxml'
+make[3]: Entering directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10/include'
+make[2]: Leaving directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10/include'
+Making all in .
+make[2]: Entering directory '/home/motari/Development/code/phase-4/phase-4-rails-and-active-record-lab/vendor/bundle/ruby/3.1.0/gems/nokogiri-1.11.3/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.10/libxml2-2.9.10'
+  CC       xmllint.o
+  CC       SAX.lo
+  CC       entities.lo
+entities.c: In function ‘xmlEncodeEntitiesInternal’:
+entities.c:561:68: warning: unused parameter ‘attr’ [-Wunused-parameter]
+  561 | xmlEncodeEntitiesInternal(xmlDocPtr doc, const xmlChar *input, int attr) {
+      |                                                                ~~~~^~~~
+  CC       encoding.lo
+make[2]: *** [Makefile:1287: encoding.lo] Error 1
+make[1]: *** [Makefile:1479: all-recursive] Interrupt
+make: *** [Makefile:893: all] Interrupt
